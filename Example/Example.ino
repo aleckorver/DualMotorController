@@ -72,8 +72,8 @@ void debug(long tNow){
 }
 
 void updateMotorControl(long _tNow){
-  if(now - lastMotorControlTime >= motorUpdateInterval){      
-    lastMotorControlTime = now;
+  if(_tNow - lastMotorControlTime >= motorUpdateInterval){      
+    lastMotorControlTime = _tNow;
     //MTR1 UPDATE   
     M1_Pwm = ch2.get8bitVal();
     M2_Pwm = ch3.get8bitVal();
