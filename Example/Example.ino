@@ -2,6 +2,7 @@
 #include "ppmReceiver.h"
 
 /*
+ * https://github.com/aleckorver/DualMotorController
  * Basic example of a dual motor controller which 
  * uses x2 VNH5019 Dual H Bridge drivers (24V) and
  * a Turnigy 9x 8Ch Receiver/Transmitter. Example is

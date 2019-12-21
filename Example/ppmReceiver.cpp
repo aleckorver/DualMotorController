@@ -1,5 +1,5 @@
 // Arduino VNH5019 Motor Driver Library
-// https://github.com/
+// https://github.com/aleckorver/DualMotorController
 // Copyright (C) 2019 by Alec Korver and licensed under
 // GNU GPL v3.0, https://www.gnu.org/licenses/gpl.html
 
